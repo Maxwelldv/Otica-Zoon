@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin:0px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    border: none;
+}
+
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: rgb(122, 23, 12);
+    border-radius: 5rem;
+}
+
+.background{
+    background-image: url("backgroundmenina1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 118vh;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;    
+    height: 70px;
+    background-color: rgb(122, 23, 12);
+    padding-top: 1.5rem;
+    align-items: center;
+}
+
+
+.logo img{
+    width: 100px;
+    height: auto;
+    margin-left: 5rem;
+    margin-top: -1rem;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.C-icon{
+    margin-right: 35px;
+    font-size: 25px;
+}
+
+.icone ion-icon{
+    color: #fff;
+    size: 10px;
+    cursor: pointer;
+}
+
+.icone :hover{
+    padding: 1px;
+    transition: 0.3s;
+}
+
+ul li a:hover{
+    padding: 3px;
+    color: rgb(222, 62, 94);
+    border-bottom: solid 1px;
+}
+
+.C-title{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.C-title h1{
+    color: rgb(122, 23, 12);
+    font-size: 90px;
+    font-weight: 1000;
+}
+
+.C-title h2{
+    color: rgb(222, 62, 94);
+    font-size: 30px;
+    margin-top: -10px;
+    margin-left: 70px;
+}
+
+p{
+    margin-left: 50px;
+    font-weight: 900;
+    color: black;
+    font-size: 25px;
+}
+
+.C-title button{
+    margin-top: 2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: rgb(122, 23, 12);
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 170px;
+}
+
+.C-title button:hover{
+    transition: 0.5s;
+
+    padding: 9px 10px;
+}
+.marcas{
+    color: rgb(222, 62, 94);
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 280px;
+    display: flex;
+}
+
+.Marcas{
+    color: rgb(222, 62, 94);
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 100px;
+    display: flex;
+    cursor: pointer;
+    justify-content: flex-start;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.Marcas h3{
+    margin-left: -150px;
+}
+
+.Marcas img{
+    width: auto;
+    height: 50px;
+    padding-top: 10px;
+}
